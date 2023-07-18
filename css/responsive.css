@@ -18,23 +18,20 @@
      padding: 0;
      gap: 50px;
 }
-
 .game-card-container{
-    grid-template-columns: 1fr;
-    padding: 0 15px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 20px;
+    gap: 20px;
 
     
 }
-.game-card{
-    width: 100%;
-}
-
 .card-description{
-    font-size: .85rem;
+    font-size: .75rem;
     text-align: center;
 }
 
 }
+
 
 
 
@@ -83,4 +80,27 @@
     width: 85%;
     
 }
+
+.game-card-container{
+    grid-template-columns: 1fr;
+    padding: 0 15px;
+    gap: 20px;
+
+    
+}
+.game-card{
+    width: 100%;
+}
+
+.games-section h2{
+    font-size: 1.7rem;
+}
+.games-section > p{
+   font-size: .85rem;
+}
+.card-description{
+    font-size: .85rem;
+    text-align: center;
+}
+
 }

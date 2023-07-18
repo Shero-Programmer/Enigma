@@ -9,3 +9,89 @@
 body {
     font-family: 'Work Sans', sans-serif;
 }
+
+.text-pink{
+    color: #FF42A5;
+}
+
+.btn-primary{
+
+}
+
+.btn-secondary{
+
+}
+
+nav li {
+    list-style: none;
+}
+
+/* .text-color{
+background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+} */
+
+
+/* Nav section related styles */
+
+.nav-container{
+    max-width: 1440px;
+    border: 1px solid blue;
+    margin: 0 auto;
+    display: flex;
+    padding: 35px 240px;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    min-height: 100px;
+}
+
+.logo-container img{
+    width: 85px;
+    object-fit: cover;
+    padding: 20px;
+}
+.nav-items-container{
+    width: 50%;
+    min-height: 100px;
+}
+
+.nav-items-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.nav-items-container li{
+    color: #3C354F;
+    font-size: 1.125rem;
+    font-weight: 700;
+
+}
+.follow-icon{
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 16px 24px;
+}
+.icon-color-1{
+    color: #F61C0D;
+    font-size: 2rem;
+    padding: 0 15px;
+}
+.icon-color-2{
+    color: #000000;
+    font-size: 2rem;
+    padding-right: 15px;
+}

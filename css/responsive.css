@@ -1,0 +1,53 @@
+
+/*Media queries for medium device */
+
+@media screen and (max-width:768px) {
+    .nav-container{
+        padding: 20px;
+    }
+     .nav-items-container{
+        width: 80%;
+    }
+    .follow-icon{
+    padding: 15px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Media queries for small device */
+
+@media screen and (max-width:425px) {
+
+    .nav-container,
+    .nav-items-container {
+        flex-direction: column;
+    }
+
+    .nav-container{
+        padding: 50px;
+    }
+    .nav-items-container{
+        width: 100%;
+    }
+    
+    .nav-items-container .about{
+        margin-bottom: 35px;
+        
+    }
+    .follow-icon{
+       height: 56px;
+       margin-top: 35px;
+       padding: 0 25px;
+    }
+
+}

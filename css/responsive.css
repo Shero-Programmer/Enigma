@@ -11,6 +11,12 @@
     .follow-icon{
     padding: 15px;
 
+    
+}
+.banner-container{
+    flex-direction: column-reverse;
+     padding: 0;
+     gap: 50px;
 }
 
 
@@ -56,8 +62,10 @@
 }
 .banner-img{
     width: 100%;
+    padding: 0 30px;
 }
 .banner-text{
-    width: 100%;
+    width: 85%;
     
+}
 }

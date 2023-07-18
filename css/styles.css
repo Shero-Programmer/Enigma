@@ -111,7 +111,7 @@ nav li {
     padding: 0 240px;
     display: flex;
     align-items: center;
-    gap: 120px;
+    gap: 100px;
 }
 .banner-text{
     /* border: 1px solid green; */

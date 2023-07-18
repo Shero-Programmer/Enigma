@@ -50,4 +50,14 @@
        padding: 0 25px;
     }
 
+    .banner-container{
+    flex-direction: column-reverse;
+     padding: 0;
+}
+.banner-img{
+    width: 100%;
+}
+.banner-text{
+    width: 100%;
+    
 }

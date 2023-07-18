@@ -19,7 +19,22 @@
      gap: 50px;
 }
 
+.game-card-container{
+    grid-template-columns: 1fr;
+    padding: 0 15px;
 
+    
+}
+.game-card{
+    width: 100%;
+}
+
+.card-description{
+    font-size: .85rem;
+    text-align: center;
+}
+
+}
 
 
 

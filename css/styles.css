@@ -163,7 +163,6 @@ color: #FF42A5;
 .games-section{
     max-width: 1440px;
     margin: 0 auto;
-    margin-top: 120px;
 }
 .games-section h2{
     color: #0B0223;
@@ -202,9 +201,6 @@ color: #FF42A5;
 
 }
 
-.game-card img:hover{
-    opacity: 0.1;
-}
 .game-card img{
     width: 100%;
 }
@@ -216,13 +212,7 @@ color: #FF42A5;
     padding-top: 15px;
   
 }
-.watch-now-icon{
-    text-align: center;
-    position: absolute;
-    top: 20%;
-    left: 30%;
-    /* display: none; */
-}
+
 .watch-now-text{
     font-size: 1.25rem;
     font-weight: 700;
@@ -236,7 +226,9 @@ width: 60px;
 
 
 /* Feature section related styles */
-
+.feature{
+    margin-top:70px;
+}
 .feature-container{
     margin: 0 auto;
     padding: 0 240px;
@@ -290,7 +282,9 @@ line-height: 60px;
 }
 
 /* Game category section related styles */
-
+.game-category-section{
+    margin: 200px 0 100px;
+}
 .game-category-container{
   
    max-width: 1440px;
@@ -303,6 +297,11 @@ line-height: 60px;
   
 
    
+}
+.game-category p{
+    font-size: 1rem;
+    font-weight: 700;
+
 }
 
 .game-category:hover{
@@ -320,9 +319,9 @@ justify-content: flex-end;
 align-items: center;
 padding: 10px;
 border-radius: 50px;
-
-    
+  
 }
+
 
 /* Footer section related styles */
 

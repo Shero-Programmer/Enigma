@@ -144,8 +144,3 @@ margin-top: 40px;
     top: 60%;
     
 }
-.game-category-container{
-    grid-template-columns: repeat(3, 1fr);
-}
-
-}

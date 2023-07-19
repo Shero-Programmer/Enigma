@@ -292,14 +292,16 @@ line-height: 60px;
 /* Game category section related styles */
 
 .game-category-container{
-    margin: 0 auto;
-    max-width: 1440px;
-    display: flex;
-    column-gap: 26px;
-    row-gap: 40px;
-    flex-wrap: wrap;
-    justify-content: center;
-    border: 1px solid green;
+  
+   max-width: 1440px;
+   background-color: #8658f104;
+   margin: 0 auto;
+   padding: 0 100px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+  
+
    
 }
 
@@ -314,14 +316,13 @@ line-height: 60px;
 border: 2px solid rgba(0, 196, 255, 0);
 display: flex;
 column-gap: 15px;
-justify-content: center;
+justify-content: flex-end;
 align-items: center;
 padding: 10px;
 border-radius: 50px;
 
     
 }
-
 
 /* Footer section related styles */
 
@@ -339,6 +340,9 @@ border-radius: 50px;
 .footer-icons span,
 .copyright{
     color: #FFF;
+}
+.footer-icons span{
+    cursor: pointer;
 }
 .footer-container{
     padding: 100px 240px;
